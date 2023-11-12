@@ -15,7 +15,7 @@ const MovieContainer = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    // Function to fetch repositories with pagination
+    // Function to fetch repositories with client pagination
     const fetchRepos = async () => {
         try {
             const response = await fetch(`http://localhost:3000/movies`);
@@ -59,7 +59,6 @@ const MovieContainer = () => {
           </div>
         );
       }, [availableShows]);
-
       
     return (
         <div>
