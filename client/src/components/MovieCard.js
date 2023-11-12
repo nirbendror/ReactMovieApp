@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import "../styles/MovieCard.css";
 import ShowModal from './ShowModal';
 
+// Component for single movie card include all relevant data
+// this component render in 2 mode: (1) cards mode. (2) Show modal of the chosen movie.
 const MovieCard = ({ movie }) => {
   const { title, image, rating } = movie;
   const [isModalVisable, setIsModalVisable] = useState(false);

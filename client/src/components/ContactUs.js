@@ -9,6 +9,8 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import "../styles/ContactUs.css";
 
+// Implement component to display all Contact Us Section
+// I'm using react-fontawesome for the social media icons
 const ContactUs = () => {
   return (
     <div className="contact-us-container">

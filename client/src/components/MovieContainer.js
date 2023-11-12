@@ -5,6 +5,8 @@ import LoadMoreMovies from "./LoadMoreMovies";
 
 export const paginationLimit = 25;
 
+// Moviw container component that render:
+// page title, search component, movie cards and contact us section
 const MovieContainer = () => {
     const [movieRepo, setMovieRepo] = useState([]);
     const [availableShows, setAvailableShows] = useState([]);
@@ -26,6 +28,7 @@ const MovieContainer = () => {
         setAvailableShows(data.slice(displayCount, displayCount + paginationLimit));
         setDisplayCount(paginationLimit);
         } catch (error) {
+          // Error hendling
             console.error("Error fetching repositories:", error);
             setError("Error fetching repositories");
         } finally {
