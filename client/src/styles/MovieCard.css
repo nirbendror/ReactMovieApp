@@ -1,0 +1,43 @@
+.movie-card {
+  flex-direction: row;
+  margin: 20px;
+  overflow: hidden;
+  width: 150px;
+  height: 300px;
+  padding: 5px;
+}
+
+.movie-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+  }
+  
+.movie-image img {
+    width: 180px;
+    height: 190px;
+}
+
+.movie-info p {
+    font-size: 12px; 
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+.read-more button {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 8px 10px;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+}
+
+.read-more button span {
+    margin-right: 25px;
+}

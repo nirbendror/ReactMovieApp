@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  background-color: aqua;
+  padding: 5px;
+}
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+
+.App h1 {
+  font-weight: bold;
+}

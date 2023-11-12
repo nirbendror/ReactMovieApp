@@ -1,0 +1,19 @@
+.contact-us-container {
+  position: flex;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 10px;
+  color: white;
+}
+  
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.contact-us-container p {
+  font-size: 12px
+}
+  
+  
